@@ -1,0 +1,164 @@
+/*
+Theme Name: 	fraction
+Theme URI: 		http://www.LuisRamos.cl
+Description: 	CSS Grid.
+Version: 		0.1
+Author: 		Luis Ramos (oxxfreddyxxo)
+Author URI: 	http://www.LuisRamos.cl
+License:
+License URI:
+*/
+.row {
+  letter-spacing: -0.31em;
+  /* Webkit: collapse white-space between units; */
+  text-rendering: optimizespeed;
+  /* Webkit: fixes text-rendering: optimizeLegibility; */
+  font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  display: -ms-flexbox;
+  -ms-flex-flow: row wrap;
+}
+[class*='block-'] {
+  display: inline-block;
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+}
+.block-16-16 {
+  width: 99%;
+  padding: 0 0.5%;
+}
+.block-15-16 {
+  width: 92.75%;
+  padding: 0 0.5%;
+}
+.block-14-16 {
+  width: 86.5%;
+  padding: 0 0.5%;
+}
+.block-13-16 {
+  width: 80.25%;
+  padding: 0 0.5%;
+}
+.block-12-16 {
+  width: 74%;
+  padding: 0 0.5%;
+}
+.block-11-16 {
+  width: 67.75%;
+  padding: 0 0.5%;
+}
+.block-10-16 {
+  width: 61.5%;
+  padding: 0 0.5%;
+}
+.block-9-16 {
+  width: 55.25%;
+  padding: 0 0.5%;
+}
+.block-8-16 {
+  width: 49%;
+  padding: 0 0.5%;
+}
+.block-7-16 {
+  width: 42.75%;
+  padding: 0 0.5%;
+}
+.block-6-16 {
+  width: 36.5%;
+  padding: 0 0.5%;
+}
+.block-5-16 {
+  width: 30.25%;
+  padding: 0 0.5%;
+}
+.block-4-16 {
+  width: 24%;
+  padding: 0 0.5%;
+}
+.block-3-16 {
+  width: 17.75%;
+  padding: 0 0.5%;
+}
+.block-2-16 {
+  width: 11.5%;
+  padding: 0 0.5%;
+}
+.block-1-16 {
+  width: 5.25%;
+  padding: 0 0.5%;
+}
+/*::::::::::::::_ Smartphones (portrait and landscape) _::::::::::::::*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .block-16-16 {
+    width: 100%;
+  }
+  .block-15-16 {
+    width: 100%;
+  }
+  .block-14-16 {
+    width: 100%;
+  }
+  .block-13-16 {
+    width: 100%;
+  }
+  .block-12-16 {
+    width: 100%;
+  }
+  .block-11-16 {
+    width: 100%;
+  }
+  .block-10-16 {
+    width: 100%;
+  }
+  .block-9-16 {
+    width: 100%;
+  }
+  .block-8-16 {
+    width: 100%;
+  }
+  .block-7-16 {
+    width: 100%;
+  }
+  .block-6-16 {
+    width: 100%;
+  }
+  .block-5-16 {
+    width: 100%;
+  }
+  .block-4-16 {
+    width: 100%;
+  }
+  .block-3-16 {
+    width: 100%;
+  }
+  .block-2-16 {
+    width: 100%;
+  }
+  .block-1-16 {
+    width: 100%;
+  }
+}
+@media (min-width: 459px) and (max-width: 768px) {
+  .blockTest:before {
+    content: "tablet";
+    padding-left: 10px;
+  }
+  .table-1-2 {
+    width: 50%;
+  }
+  .table-1-3 {
+    width: 33.3%;
+  }
+  .table-2-3 {
+    width: 66.6%;
+  }
+  .table-2-2,
+  .table-3-3 {
+    width: 100%;
+  }
+}
